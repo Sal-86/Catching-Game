@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/duckLogo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rain Catch</title>
+  </head>
+  <body>
+    <header>
+      <p>
+        Catching Game | Phaser
+      </p>
+    </header>
+    <main>
+      <canvas id="gameCanvas"></canvas>
+      <div id="gameStartDiv" class="gameUI">
+        <h1>Rain Catch</h1>
+        <p>You have 30 seconds to catch raindrops!</p>
+        <p>To win, catch more than 10 drops.</p>
+        <p>Navigate left/right using the arrowkeys.</p>
+        <p>Click the start button to begin!</p>
+        <button id="gameStartBtn"><p>Start</p></button>
+        </div>
+      <div id="gameEndDiv" class="gameUI">
+        <p>Game Over</p>
+        <h1>You <span id= "gameWinLoseSpan"></span></h1>
+        <h1>Final Score: <span id= "gameEndScoreSpan"></span></h1>
+        <p>Refresh the page to play again!</p>
+      </div>
+    </main>
+    <footer>
+      <p>
+        Created 5/30/25 - Finished 6/5/25
+      </p>
+    </footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
